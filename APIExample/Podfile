@@ -1,0 +1,30 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'AlamofileExample' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for AlamofileExample
+   pod 'AlamofireSwiftyJSON'
+   pod 'AlamofireImage'
+   
+end
+
+target 'KingfisherExample' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for KingfisherExample
+  pod 'SDWebImage'
+  pod 'Kingfisher'
+
+end
+
+target 'URLSessionExample' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for URLSessionExample
+
+end
